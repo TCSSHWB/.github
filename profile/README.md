@@ -26,7 +26,7 @@
 若未來有 **修改組織名稱** 或 **更換 Cloudflare Pages 部署網址**，請務必注意：
 * **管理後臺登入：** 請至 **Firebase Console -> Authentication -> Settings** 中，將新的 `xxxx.pages.dev` 域名加入 **授權網域 (Authorized domains)**，否則後臺管理人員將**無法正常登入**。
 * **資料庫安全防護：** 由於前臺劃位（Firestore）預設不限制網域，請至 Google Cloud Console 限制該 API Key 的使用權限（於 Google Cloud Console 設定網站之參照字串並限制為 `*.pages.dev`），以防止惡意人士盜用 API Key 刷取資料庫流量。
-* 詳細操作步驟請參照[系統部署指南](https://hackmd.io/ENAsXUl7TjmyIgZGZID4Jw?view)。
+* 詳細操作步驟請參照[系統維護與部署指南](https://hackmd.io/@lzspriv/tcsshwb-sr-system-guide)。
 
 ---
 
